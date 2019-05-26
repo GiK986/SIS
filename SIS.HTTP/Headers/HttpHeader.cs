@@ -1,10 +1,7 @@
-﻿using SIS.HTTP.Common;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SIS.HTTP.Headers
+﻿namespace SIS.HTTP.Headers
 {
+    using SIS.HTTP.Common;
+
     public class HttpHeader
     {
 

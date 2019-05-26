@@ -1,11 +1,10 @@
-﻿using SIS.HTTP.Headers.Contracts;
-using SIS.HTTP.Common;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-
-namespace SIS.HTTP.Headers
+﻿namespace SIS.HTTP.Headers
 {
+    using SIS.HTTP.Headers.Contracts;
+    using SIS.HTTP.Common;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class HttpHeaderCollection : IHttpHeaderCollection
     {
         private readonly Dictionary<string, HttpHeader> httpHeaders;
