@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SIS.HTTP.Common
+﻿namespace SIS.HTTP.Common
 {
+    using System;
+
     public class CoreValidator
     {
         public static void ThrowIfNull(object obj, string name)
