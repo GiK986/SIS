@@ -2,6 +2,6 @@
 {
     public static class StringExtensions
     {
-        public static string Capitalize(this string text) => text[0].ToString().ToUpper() + text.Substring(1).ToLower();
+        public static string Capitalize(this string text) => char.ToUpper(text[0]) + text.Substring(1).ToLower();
     }
 }
